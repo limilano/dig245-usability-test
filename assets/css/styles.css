@@ -1,2 +1,59 @@
 
 /* css */
+.row {
+  height: auto;
+  padding: 10% 5%;
+}
+
+.gray {
+  background-color: #242424;
+}
+
+.lightRed {
+  background-color: #F7D3D3;
+}
+
+.grayHeader {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 3%;
+}
+
+.bodyTextGray {
+  color: #202020;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.whiteHeader {
+  color: white;
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.bodyTextWhite {
+  color: white;
+  font-size: 35px;
+  line-height: 1.2;
+  font-weight: lighter;
+  margin: 5% 5% 0 0;
+}
+
+img {
+  max-height: 50vh;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.redBox {
+  background-color: #9C0000;
+  position: relative;
+  z-index: 0;
+}
+
+.imgCenter {
+  display:flex;
+  align-items: center;
+}
