@@ -26,11 +26,24 @@
   color: black;
   font-weight: bold;
   font-size: 40px;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
+}
+
+.conclusionHeader {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 2%;
 }
 
 .bodyTextGray {
   color: #202020;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.bodyTextWhite {
+  color: white;
   font-size: 18px;
   line-height: 1.7;
 }
@@ -41,7 +54,7 @@
   font-size: 75px;
 }
 
-.bodyTextWhite {
+.miniHeaderWhite {
   color: white;
   font-size: 35px;
   line-height: 1.2;
@@ -79,8 +92,9 @@
   text-align: center;
 }
 
-.blockText {
+#ACCESSTXT, #SOCIALTXT, #CONCLUSIONTXT {
   margin: 0 15%;
+  padding-bottom: 3%;
 }
 
 .rightText {
@@ -89,4 +103,15 @@
 
 .imgCol {
   height: 60vh;
+}
+
+span {
+  display: table-cell;
+  text-align: center;
+}
+
+.info {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
