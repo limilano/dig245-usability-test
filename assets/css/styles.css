@@ -14,6 +14,15 @@
   padding-top:5%;
 }
 
+.center {
+  text-align: center;
+}
+
+.imgCenter {
+  display:flex;
+  align-items: center;
+}
+
 .gray {
   background-color: #242424;
 }
@@ -22,47 +31,42 @@
   background-color: #F7D3D3;
 }
 
-.grayHeader {
+.blkTxt {
   color: black;
+}
+
+.whiteTxt {
+  color: white;
+}
+
+.grayTxt {
+  color: #202020;
+}
+
+.basicHeader {
   font-weight: bold;
   font-size: 40px;
   padding-bottom: 5%;
 }
 
-.conclusionHeader {
-  color: white;
-  font-weight: bold;
-  font-size: 40px;
-  padding-bottom: 2%;
-}
-
-.bodyTextGray {
-  color: #202020;
+.basicBody {
   font-size: 18px;
   line-height: 1.7;
 }
 
-.bodyTextWhite {
-  color: white;
-  font-size: 18px;
-  line-height: 1.7;
-}
-
-.whiteHeader {
-  color: white;
+.bigHeader {
   font-weight: bold;
   font-size: 75px;
 }
 
-.miniHeaderWhite {
-  color: white;
+.miniHeader {
   font-size: 35px;
   line-height: 1.2;
   font-weight: lighter;
   margin: 5% 5% 0 0;
 }
 
-.card {
+img {
   max-height: 50vh;
   position: absolute;
   z-index: 2;
@@ -80,16 +84,7 @@
 
 .dropShadow {
   z-index: 0;
-  box-shadow:  -40px 40px #9C0000, 0px 0px 5px #afb1ba;
-}
-
-.imgCenter {
-  display:flex;
-  align-items: center;
-}
-
-.center {
-  text-align: center;
+  box-shadow: -40px 40px #9C0000, 0px 0px 5px #afb1ba;
 }
 
 #ACCESSTXT, #SOCIALTXT, #CONCLUSIONTXT {
