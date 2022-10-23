@@ -1,8 +1,17 @@
 
 /* css */
+* {
+  border-radius: 0 !important;
+}
+
 .row {
   height: auto;
   padding: 10% 5%;
+}
+
+.picRow {
+  height: 55vh;
+  padding-top:5%;
 }
 
 .gray {
@@ -40,20 +49,40 @@
   margin: 5% 5% 0 0;
 }
 
-img {
+.card {
   max-height: 50vh;
   position: absolute;
+  z-index: 2;
+}
+
+.redBoxRight {
+  box-shadow: 40px 40px #9C0000;
   z-index: 1;
 }
 
+.redBoxLeft {
+  box-shadow:-40px 40px #9C0000;
+  z-index: 1;
+}
 
-.redBox {
-  background-color: #9C0000;
-  position: relative;
+.dropShadow {
   z-index: 0;
+  box-shadow:  -40px 40px #9C0000, 0px 0px 5px #afb1ba;
 }
 
 .imgCenter {
   display:flex;
   align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.blockText {
+  margin: 0 15%;
+}
+
+.rightText {
+  padding-left: 5%;
 }
